@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #fff;
+    background-color: #29b6fa;
+  }
+  
+  body,
+  input,
+  button,
+  textarea {
+    font: 600 18px Nunito, sans-serif;
+  }
+  
