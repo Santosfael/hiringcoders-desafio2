@@ -1,0 +1,19 @@
+#container-home {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    
+    background-color: #fff;
+}
+@media (max-width: 800px) {
+    #container-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: #fff;
+    }
+}

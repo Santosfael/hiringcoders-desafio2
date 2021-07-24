@@ -1,6 +1,13 @@
+import Header from "../../components/Header";
+
+import './styles.css';
+
 function Home() {
     return (
-        <h2>Logiin</h2>
+        <div id="container-home">
+            <Header />
+            <h1 style={{color:"#000"}}>Home</h1>
+        </div>
     )
 }
 

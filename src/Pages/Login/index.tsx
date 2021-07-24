@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import '../../Styles/global.css';
 import './styles.css';
 
 function Login() {
+    const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -19,7 +21,7 @@ function Login() {
 
     function isButtonEnabled() {
         if(email === 'teste@teste.com' && password === '123456') {
-
+            history.push('home');
         }else {
             alert("E-mail ou senha invalidos");
             setEmail('');
@@ -46,7 +48,7 @@ function Login() {
                     <label>Senha</label>
                     <input
                         type="password"
-                        placeholder="Digite seu e-mail"
+                        placeholder="Digite a sua senha"
                         value={password}
                         onChange={(e) =>setPassword(e.target.value)}
                     />
