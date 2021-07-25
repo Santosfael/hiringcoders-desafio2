@@ -4,16 +4,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Application Features
-- [x] Login screen, user: teste@teste.com, password: 123456\
-- [x] Registration screens: CLients and products\
+- [x] Login screen, user: teste@teste.com, password: 123456
+- [x] Registration screens: CLients and products
 - [x] Registration Screens: Product and Clients Listing
 
 ## Data storage
 - [x] localStorage, fetches table information from localstorage
 
 ## Future implementations
-- [ ] Finish implementing responsiveness\
-- [ ] Improve the registration modal and transform it into a component\
+- [ ] Finish implementing responsiveness
+- [ ] Improve the registration modal and transform it into a component
 - [ ] Implement button functionality to edit client and product.
 
 ## To run Application
