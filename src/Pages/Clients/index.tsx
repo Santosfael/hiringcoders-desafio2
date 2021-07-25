@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { v4 as uuidv4, v4 } from 'uuid';
+import { v4 } from 'uuid';
 
 import Header from "../../components/Header";
 import Modal from "../../components/Modal";
@@ -95,8 +95,9 @@ function Clients () {
         setComplement("");
     };
 
-    function handleEditClient(id: string) {
-        dataClient.map(client => {
+    /*function handleEditClient(id: string) {
+        // eslint-disable-next-line no-use-before-define
+        dataClient.map((client) => {
             if(client.id === id) {
                 setName(client.name);
                 setEmail(client.email);
@@ -112,8 +113,8 @@ function Clients () {
 
                 setIsModalVisible(true);
             }
-        })
-    }
+        });
+    }*/
 
     return (
         <div id="container-client">
@@ -139,7 +140,7 @@ function Clients () {
                                         <td>{clients.email}</td>
                                         <td>{clients.phone}</td>
                                         <td className="td-container-button">
-                                            <button disabled onClick={() => handleEditClient(clients.id)}>Selecionar</button>
+                                            <button disabled>Editar</button>
                                         </td>
                                     </tr>
                                 )

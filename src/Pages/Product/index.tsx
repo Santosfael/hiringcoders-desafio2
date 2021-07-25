@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { v4 as uuidv4, v4 } from 'uuid';
+import { v4 } from 'uuid';
 
 import Header from "../../components/Header";
 import Modal from "../../components/Modal";
@@ -75,8 +75,8 @@ function Product () {
         setTypeProduct("");
     };
 
-    function handleEditproduct(id: string) {
-        dataProduct.map(product => {
+    /*function handleEditproduct(id: string) {
+        dataProduct.map((product) => {
             if(product.id === id) {
                 setName(product.name);
                 setDescription(product.description);
@@ -88,7 +88,7 @@ function Product () {
                 setIsModalVisible(true);
             }
         })
-    }
+    }*/
 
     return (
         <div id="container-product">
@@ -116,7 +116,7 @@ function Product () {
                                         <td>{products.valueProduct}</td>
                                         <td>{products.qtdProduct}</td>
                                         <td className="td-container-button">
-                                            <button disabled onClick={() => handleEditproduct(products.id)}>Editar</button>
+                                            <button disabled>Editar</button>
                                         </td>
                                     </tr>
                                 )
