@@ -68,4 +68,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Future implementations
 [ ] Finish implementing responsiveness
-[ ] Improve the registration modal and transform it into a component 
+[ ] Improve the registration modal and transform it into a component
+[ ] Implement button functionality to edit client and product.
