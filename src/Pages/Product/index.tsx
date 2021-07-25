@@ -115,7 +115,9 @@ function Product () {
                                         <td>{products.description}</td>
                                         <td>{products.valueProduct}</td>
                                         <td>{products.qtdProduct}</td>
-                                        <td className="td-container-button"><button onClick={() => handleEditproduct(products.id)}>Selecionar</button></td>
+                                        <td className="td-container-button">
+                                            <button disabled onClick={() => handleEditproduct(products.id)}>Editar</button>
+                                        </td>
                                     </tr>
                                 )
                             })

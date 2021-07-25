@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run Application
+
+to run the application you need to have installed:
+[Nodejs](https://nodejs.org/en/),
+NPM is installed together with nodejs
+[Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable),
+
+## Installation of Packages
+
+In the project directory, you can run:
+
+### `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,3 +57,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Application Features
+[x] Login screen, user: teste@teste.com, password: 123456
+[x] Registration screens: CLients and products
+[x] Registration Screens: Product and Clients Listing
+
+## Data storage
+[x] localStorage, fetches table information from localstorage
+
+## Future implementations
+[ ] Finish implementing responsiveness
+[ ] Improve the registration modal and transform it into a component 

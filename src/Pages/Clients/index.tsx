@@ -138,7 +138,9 @@ function Clients () {
                                         <td>{clients.name}</td>
                                         <td>{clients.email}</td>
                                         <td>{clients.phone}</td>
-                                        <td className="td-container-button"><button onClick={() => handleEditClient(clients.id)}>Selecionar</button></td>
+                                        <td className="td-container-button">
+                                            <button disabled onClick={() => handleEditClient(clients.id)}>Selecionar</button>
+                                        </td>
                                     </tr>
                                 )
                             })
